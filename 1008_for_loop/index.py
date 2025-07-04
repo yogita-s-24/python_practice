@@ -14,34 +14,55 @@ for ref_var in iterables:
 """
 
 #print "Hello World" in 5 times
-
-
 for x in range(5):
     print("Hello World")
 
+###############################################################
 print()
-
 start = 0
-
 for x in range(0,5):
     print("Hello World")
 
-
+###############################################################
+print()
 # print the number from 1 to 10
-
 for num in range(1, 11):
     print(num)
 
 # Its skip the last number
-
+###############################################################
+print()
 # print the number from 10 to 1
-
 for num in range(10, 0, -1):
     print(num, end=" ")
 
+###############################################################
 print()
 # print number -1 to -10 
 
 for num in range(-1 , -11, -1):
     print(num, end=", ")
+
+###############################################################
+print()
+# print the numbers from -10 to -1
+print()
+for num in range(-10, 0):
+    print(num, end=" ")
+
+###############################################################
+print()
+# print the even numbers from 1 to 10
+for num in range(1, 11):
+    if num % 2 == 0:
+        print(num, end=" ")
+
+###############################################################
+print()
+# print the odd numbers from 10 to 20
+for num in range(10, 21):
+    if num % 2 != 0:
+        print(num, end=" ")
+
+###############################################################
 
